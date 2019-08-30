@@ -1,0 +1,190 @@
+/* 
+	template.css
+	Copyright (c) 2018 by Belaihun Desalegn Feleke
+	All Rights Reserved
+	
+	A website assignment using Bootstrap 3.3.7
+	for course WEB125, HTML & CSS, at
+	HACC - Central Pennsylvania's Community College
+	Professor Carl R. Petersheim, M.S.
+*/
+
+/* 	Tag Selector Section......................................*/
+
+body{background-Color:#e6ffe6; url("../images/tile.gif");
+	color:black;
+	Line-height:1.5;
+	Padding:1.3em;
+	font-family: 'Cuprum', sans-serif,Arial;
+	font-size:16px;
+	margin:10 5 10 5;
+	
+}
+
+/*	Class Selector Section...................................*/
+.container-fluid {
+	background-color:#e6fff2;  /* rgba(255,255,204,1.0);*/
+	width: 90%;
+	border-radius:25px;
+}
+
+.jumbotron{
+	
+	background-color:#66ffb3;
+	border-radius:25px;
+	box-shadow:4px 4px 4px black;
+}
+div.row {
+	background-color:lightgray;
+	overflow:hidden;
+	color:black;
+	Border-radius:20px;
+	box-shadow:2px 2px 2px black;
+}
+div.col-sm-12{
+	box-shadow:4px 4px 20px black;
+	background-color:lightblue;
+	Border-radius:20px;
+	
+}
+
+
+h1  {
+	background-color:#e6fff2;
+	text-align:center;
+	border-radius:20px;
+	box-shadow:2px 2px 2px black;
+	font-family: 'Cuprum', sans-serif,Arial;
+	font-family: 'Cuprum', sans-serif,Arial;
+	}
+h2{
+	font-family: 'Cuprum', sans-serif,Arial;
+	font-family: 'Aladin', cursive;
+	text-align:center;
+}
+
+h3 {
+	padding:10px;
+	text-align:center;
+	background-color:lightblue;
+}
+#rrr{
+	background-color:lightblue;
+	 border-radius:20px;
+	 box-shadow:2px 2px 2px black;
+}
+.videoWrapper {
+	position:relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.table{
+	width:100%;
+	height:auto;
+	background:#e6fff2;
+	border-radius:10px;
+}	
+tr:hover {
+	background-color:skyblue;
+}
+
+th{
+    background-color:#198a8a;
+	color: white;
+}	
+li {
+	list-style-type: disc;}	
+/*	ID Selector Section......................................*/
+#bbb{
+     background-color:lightblue;
+}
+#ddd{
+     background-color:lightblue;
+	 border-radius:20px;
+	 box-shadow:2px 2px 2px black;
+}
+#aaa{
+    padding:10px;
+	text-align:Center;	
+}
+
+input[type=text]{
+	border-radius:5px;
+	width:100%;
+	padding:5px;
+	display:inline-block;
+	margin:10px;
+	border:2px solid #ccc;
+	
+.rating > span:hover:before {
+   content: "\2605";
+   position: absolute;
+}
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+}
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+   content: "\2605";
+   position: absolute;
+}
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+}
+.rating > span {
+  display: inline-block;
+  position: relative;
+  width: 1.1em;
+}
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+   content: "\2605";
+   position: absolute;
+}
+
+    /*video*/
+.wrapper {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	background: lightblue;
+}
+.h_iframe {
+	position: relative;
+}
+.h_iframe .ratio{
+	display:block;
+	width:100%;
+	height: auto;
+}
+.h_iframe iframe{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+/*submit button for form*/
+.input{
+	background-Color: #ffbf80;
+	border: 3px;
+	color: red;
+	padding: 15px 32px;
+	text-align: center;
+	display: inline-block;
+	font-size: 18px;
+}
+	
+	
+	
+

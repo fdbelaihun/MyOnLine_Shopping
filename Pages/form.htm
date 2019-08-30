@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- 
+	template.htm
+	Copyright (c) 2019 by Belaihun Desalegn Feleke
+	All Rights Reserved	
+	A website assignment using Bootstrap 3.3.7
+	for course WEB125, HTML & CSS, at
+	HACC - Central Pennsylvania's Community College
+	Professor Carl R. Petersheim, M.S.
+-->
+<head>
+	<title>myOnLine Shopping</title>	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="i.e=edge">
+	 <!-- Bootstrap v3.3.7 Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<!-- Bootstrap v3.3.7 Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">	
+    <link rel="stylsheet" href="../styles/template.css">
+	<link rel="stylesheet" href="../styles/overrides.css">
+	<link href="https://fonts.googleapis.com/css?family=Aladin|Cuprum" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.0.js"></script>
+	<link rel="stylesheet" type="text/css" src="rating.css" >
+	<script type="text/javascript" src="rating.js"></script>
+    
+	<style>
+ 
+        
+  .rating {
+    width: 300px;
+    height: 34px;
+    background-color: #f6f3f3;
+}
+ 
+.rating label {
+    text-indent: -100px;
+    width: 40px !important;
+    height: 30px;
+    overflow: hidden;
+    cursor: pointer;
+}
+ 
+.label {
+    float: left;
+    padding-top: 3px;
+}
+         
+input[type="radio"] {
+    padding-right: 4px;
+    position: absolute;
+    left: 340px;
+    margin-top: 10px;
+}
+                 
+input[type="radio"], .rating label.stars {
+    float: right;
+    line-height: 30px;
+    height: 30px;
+}
+ 
+span + input[type=radio] + label, legend + input[type=radio] + label {
+    clear: right;
+    margin-right: 80px;
+    counter-reset: checkbox;
+}
+ 
+.rating input[type="radio"]:required + label:after {
+    content: '';
+    position: absolute;
+    left: 340px; 
+    min-height: 10px;
+    margin-top: -36px;
+    text-align: right;
+    background: #6cbf00;
+    padding: 10px 10px;
+    display: block;
+    width: 50px;
+}
+ 
+.rating label.stars {
+    background: transparent url('http://www.findsourcecode.com/wp-content/uploads/2014/04/star_off.png') no-repeat center center;
+}
+ 
+.rating label.stars:hover ~ label.stars, 
+.rating label.stars:hover, 
+.rating input[type=radio][name=stars]:checked ~ label.stars {
+    background-image: url('http://www.findsourcecode.com/wp-content/uploads/2014/04/star.png');
+    counter-increment: checkbox;
+}
+ 
+.rating input[type=radio][name=stars]:required + label.stars:after {
+    content: counter(checkbox) " stars!";
+}      
+        
+        
+    </style>
+	
+    
+</head>
+<body>			
+	<div class="container-fluid" ><!-- Corresponds to <main> tag in HTML5 -->
+		<div class="jumbotron" >
+			<div class="row"> <!-- row 1, 1x12 cols wide, like header in HTML5 --> 
+				<div class="col-sm-12">
+					<h1>MyONLINE <image src="../images/star.PNG" width="50%" heignt="50%" class="responsive" position="relative"></image>SHOPING</h1>
+					<h2><em>Enjoy Your Online Shopping!</em></h2>
+				</div>	
+			</div> 
+		</div><!-- end row 1 -->
+		<nav class="navbar navbar-default" role="navigation">
+			<div class="container-fluid" id="ddd"> <!-- nested -->
+				<div class="navbar-header">
+					<a class="navbar-brand" href="organic.htm"></a>
+					<img class="img-responsive"></a>
+				</div> <!-- end navbar-header" -->
+				<ul class="nav navbar-nav">
+					<li><a href="../index.htm">Home</a></li>
+					<li class="active"><a href="pages/form.htm">Rate Us</a></li>
+					<li><a href="gallery.htm">Gallery</a></li>	
+				</ul>
+			</div> <!-- end nested container-fluid -->
+		</nav>
+		<div class="row"> <!-- row 2, 3x4 cols wide, like HMTL5 section -->
+			<div class="col-sm-6"> <!-- left column, like HTML5 article -->
+				<h2>MyOnLine Shopping</h2>
+                <p>        </p>
+				<img src="../images/online.jpg" class="img-circle" width="600" height="300" alt="">
+				<img class="img-responsive">
+				<p>More people than ever before in history are using Internet through Web to shop for a wide variety of products. What are the advantages of online shopping? Are there any cons and pros using online shopping that you, as the consumer, should know about and be aware of? This and other concerns are raised against online marketing service.</p>
+				<p>It's digital technology era on which a lot of convenient than traditional marketing system. The online marketing system should be well secured so that it can be trusted by online buyers.</P>
+				<div class="col-sm-6"> <!-- middle column, like HTML5 article -->
+				<h2>Watch the video bellow how to place order online.</h2>
+				<div class="videoWrapper">
+					<div class="h_iframe-container">
+					<iframe width="560" height="349" src="https://www.youtube.com/embed/n6OPUSkH1SQ" class="responsive" frameborder="0" allowfullscreen="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
+					</div>
+				</div>&nbsp 
+			</div> 	
+			</div> <!-- end left column -->
+			<div class="col-sm-6"> <!-- middle column, like HTML5 article -->
+				<h2><em>Please proceed to the following forms and rate our service based on your experiences.</em></h2>
+				<form action="mailto:bdf1591@hawkmail.hacc.edu">
+					<div class="form-group" class="form-control">
+					<form action="/action_action page.php">  
+						<label> Please rate us here:</label><br> 
+						<fieldset class="rating">     
+							<input type="radio" name="stars" id="4_stars" value="4" >
+							<label class="stars" for="4_stars">4 stars</label>
+							<input type="radio" name="stars" id="3_stars" value="3" >
+							<label class="stars" for="3_stars">3 stars</label>
+							<input type="radio" name="stars" id="2_stars" value="2" >
+							<label class="stars" for="2_stars">2 stars</label>
+							<input type="radio" name="stars" id="1_stars" value="1" >
+							<label class="stars" for="1_stars">1 star</label>
+							<input type="radio" name="stars" id="0_stars" value="0" required>
+							<label class="stars" for="0_stars">0 star</label>
+							<span  class="label"> Rating: </span>
+						</fieldset>
+        
+                    <script>
+                                $(document).ready(function() {
+                            $("form#ratingForm").submit(function(e) 
+                            {
+                                e.preventDefault(); // prevent the default click action from being performed
+                                if ($("#ratingForm :radio:checked").length == 0) {
+                                    $('#status').html("nothing checked");
+                                    return false;
+                                } else {
+                                    $('#status').html( 'You picked ' + $('input:radio[name=rating]:checked').val() );
+                                }
+                            });
+                        });
+
+                     </script>
+					 
+					 <label>Please write your brief comment:</label><br> 
+					 <textarea name="desc" max="200" cols="70" rows="6"> </textarea>
+					 
+					  <label>Enter Your Full Name</label>
+					   First Name:<input type="text" name="FirstNameame" max="25"><br>
+					   Latest Name:<input type="text"  name="LastName" max="25"><br>
+		   
+		   <label> Subject</label>
+		   <input type="text" name="title" placeholder="Enter Subject"/>
+		   <label>Comment</label>
+        
+						<fieldset><legend>Choose the type of the product you purchased:</legend></fieldset>
+						<select name="product type" size="2">
+							<option value="2">Sunglass</option><br>
+							<option value="2">Casio Quartze </option><br>
+							<option value="1">Kindle Book</option><br>
+							<option value="1">Magnetic Pen</option><br>
+							<option value="1">myMatLab kit</option><br>
+							<option value="2">Soap</option><br>
+						</select><br>
+						<fieldset>
+							<legend>How was your order delivered?</legend>
+					
+							<input type="checkbox" name="delivery" id="fast" value="Fast">
+							<label for="fast">Express</label>
+							<input type="checkbox" name="delivery" id="standard" value="Standard">
+							<label for="standard">Standard</label>
+							<input type="checkbox" name="delivery" id="special" value="Special">
+							<label for="special">Special</label>
+							<input type="checkbox" name="delivery" id="pick up" value="Pickup">
+							<label for="pickup">Pick up</label><br><br>
+							
+							<button type="submit" value="submit">Submit</button>
+							<a href="#" class="button"></a>
+							<button class="button" type="Reset" value="Reset">Reset</button>
+					
+							<!--<input type="button" value="Submit">
+							<input type="button" value="Cancel">-->
+				
+						</fieldset>
+                        </form>
+					</div>
+				</form>
+			</div> <!-- end right column -->
+		</div> <!-- end row 2 -->		
+		<div class="row"> <!-- row 3, 1x12 cols wide, like header in HTML5 --> 
+			<div class="col-sm-12">
+				<h3>myShop OnLine</h3>
+				<ul><li><em>Copyright &#169; 2019 by Belaihun Desalegn Feleke &#149; All rights reserved.</em></li></ul>
+			<div class="col-sm-6">
+			 <h4> Contact Us </h4>
+				<ul>
+					<li>Phone :171 503-0808</li>  
+					<li>Email :Belaihun@gmail.com</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<ul>
+				    <li>Physical Address 1: 31 Wilhelm Rd, Harrisburg, PA 17111, USA.</li>
+					<li>Physical Address 2: 105 Williamsburg DR, LN 20151, UK.</li>
+			</div>
+		</div> <!-- end row 3 -->
+	</div> <!-- end container-fluid -->
+</body>
+</html>

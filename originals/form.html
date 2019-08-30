@@ -1,0 +1,178 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<!-- 
+	template.htm
+	Copyright (c) 2019 by Belaihun Desalegn Feleke
+	All Rights Reserved	
+	A website assignment using Bootstrap 3.3.7
+	for course WEB125, HTML & CSS, at
+	HACC - Central Pennsylvania's Community College
+	Professor Carl R. Petersheim, M.S.
+-->
+<head>
+    <title>myShop OnLine</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="i.e=edge">
+    <!-- Bootstrap v3.3.7 Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Bootstrap v3.3.7 Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylsheet" href="../styles/template.css">
+    <link rel="stylesheet" href="../styles/overrides.css">
+    <link href="https://fonts.googleapis.com/css?family=Aladin|Cuprum" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" src="rating.css" />
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="rating.js"></script>
+
+    <style>
+
+        form {
+            width: 70%;
+            margin: auto;
+        }
+
+        lable, input, textarea {
+            display: block;
+            width: 100%;
+        }
+
+        textarea {
+            min-height: 150px;
+        }
+
+        ul {
+            padding: 0;
+            margin: 0;
+        }
+
+            ul li {
+                list-style-type: none;
+                display: inline-block;
+                margin: 10px;
+                color: darkgrey;
+                text-shadow: 2px 2px 7px gray;
+                font-size: 25px !important;
+            }
+
+                ul li:hover {
+                    color: yellow;
+                }
+
+                ul li.active, ul li.secondary-active {
+                    color: yellow;
+                }
+
+        input[type="radio"] {
+            display: none;
+        }
+    </style>
+
+</head>
+<body>			
+	<div class="container-fluid" ><!-- Corresponds to <main> tag in HTML5 -->
+		<div class="jumbotron" >
+			<div class="row"> <!-- row 1, 1x12 cols wide, like header in HTML5 --> 
+				<div class="col-sm-12">
+					<h1>myShop OnLine</h1>
+					<h2><img src="../images/aa.jpg" class="img-circle" width="100" height= "100" alt="OnlinShope Inc&#149">Enjoy your Shopping!</h2>
+				</div>	
+			</div> 
+		</div><!-- end row 1 -->
+		<nav class="navbar navbar-default" role="navigation">
+			<div class="container-fluid" id="ddd"> <!-- nested -->
+				<div class="navbar-header">
+					<a class="navbar-brand" href="organic.htm"></a>
+					<img class="img-responsive"></a>
+				</div> <!-- end navbar-header" -->
+				<ul class="nav navbar-nav">
+					<li><a href="../index.htm">Home</a></li>
+					<li><a href="pages/order.htm">Place Order</a></li>
+					<li><a href="pages/form.htm">Rate Us</a></li>
+					<li><a href="pages/gallery.htm">Gallery</a></li>	
+				</ul>
+			</div> <!-- end nested container-fluid -->
+		</nav>
+		<div class="row"> <!-- row 2, 3x4 cols wide, like HMTL5 section -->
+			<div class="col-sm-6"> <!-- left column, like HTML5 article -->
+				<h2>Online Shopping</h2>
+				<img src="../images/form.jpg" class="img-circle" width="300" height="300" alt="form1.jpg">
+				<img class="img-responsive">
+				<p>More people than ever before in history are using Internet through Web to shop for a wide variety of products. What are the advantages of online shopping? Are there any cons and pros using online shopping that you, as the consumer, should know about and be aware of? This and other concerns are raised against online marketing service.</p>
+				<p>It's digital technology era on which a lot of convenient than traditional marketing system. The online marketing system should be well secured so that it can be trusted by online buyers.</P>
+			</div> <!-- end left column -->
+			<div class="col-sm-6"> <!-- middle column, like HTML5 article -->
+				<h2>myShop OnLine</h2>
+				<form action="mailto:bdf1591@hawkmail.hacc.edu">
+					<div class="form-group" class="form-control">
+					
+						
+		<p>Please proceed to the following forms and rate our service based on your experiences.</p>
+	<form>  
+        <label> Rate Us</label><br> 
+		<ul>
+           <li><lable for="rating_1"><i class="fa fa-star" aria-hidden="true"></i></lable> <input type="radio" name="ratings" id="rating_1" value="1"/></li>
+           <li><lable for="rating_2"><i class="fa fa-star" aria-hidden="true"></i></lable> <input type="radio" name="ratings" id="rating_2" value="2"/></li>
+           <li><lable for="rating_3"><i class="fa fa-star" aria-hidden="true"></i></lable> <input type="radio" name="ratings" id="rating_3" value="3"/></li>
+           <li><lable for="rating_4"><i class="fa fa-star" aria-hidden="true"></i></lable> <input type="radio" name="ratings" id="rating_4" value="4"/></li>
+           <li><lable for="rating_5"><i class="fa fa-star" aria-hidden="true"></i></lable> <input type="radio" name="ratings" id="rating_5" value="5"/></li>
+		</ul>
+            <label>Enter full name</label>
+		   <input type="text" name="name" placeholder="Enter your name"/>
+		   <label> Subject</label>
+		   <input type="text" name="title" placeholder="Enter Subject"/>
+		   <label>Comment</label>
+        <textarea name="desc"> </textarea>
+    </form>
+    
+		<script>
+			$('li').on('hover'.function(){
+				   $(this).addClass('active');
+				   $('li').removeClass('active');
+				   $(this).prevAll().addClass('secondary-active');
+				   $('li').removeClass('secondary-active');
+			   });			
+		</script>		
+						
+						<fieldset><legend>Select the type of the product you purchased:</legend></fieldset>
+						<select name="product type" size="2">
+							<option value="vegetable">Sunglass</option><br>
+							<option value="vegetable">Casio Quartze </option><br>
+							<option value="vegetable">Kindle Book</option><br>
+							<option value="vegetable">Magnetic Pen</option><br>
+							<option value="vegetable">myMatLab kit</option><br>
+							<option value="fruit">Soap</option><br>
+						</select><br>
+						<fieldset>
+							<legend>How was your order delivered?:</legend>
+							<input type="checkbox" name="delivery" id="fast" value="Fast">
+							<label for="fast">Express</label>
+							<input type="checkbox" name="delivery" id="standard" value="Standard">
+							<label for="standard">Standard</label>
+							<input type="checkbox" name="delivery" id="special" value="Special">
+							<label for="special">Special</label>
+							<input type="checkbox" name="delivery" id="pick up" value="Pickup">
+							<label for="pickup">Pick up</label><br><br>
+							&nbsp &nbsp
+							<input type="submit" value="Submit">
+							<input type="reset" value="Cancel">
+						</fieldset>
+					</div>
+				</form>
+			</div> 
+			</div> <!-- end right column -->
+		</div> <!-- end row 2 -->		
+		<div class="row"> <!-- row 3, 1x12 cols wide, like header in HTML5 --> 
+			<div class="col-sm-12">
+				<p>Phone :171 503-0808</p>
+				<p>Email :Belaihun@gmail.com</p>
+				<p>Copyright &#169; 2019 by Belaihun Desalegn Feleke &#149; All rights reserved.</p>
+			</div>
+		</div> <!-- end row 3 -->
+	</div> <!-- end container-fluid -->
+</body>
+</html>
